@@ -1,5 +1,5 @@
 # My Ethereum First Dapp
-Dapp link: 
+Dapp link: [Dapp_link](https://wagaskon.github.io/Ethereum-Dapp/) <br>
 The deployed contract's address: 
 ``` 0x1C7cEF23918Cd492B1A4Ad6A713F50b8fcECb5eB ```
 ## Requirements:
@@ -28,15 +28,11 @@ Quick Check here :point_down:
 
 
 contract MoodDiary{
-
- 
     string mood;
-  
     //create a function that writes a mood to the smart contract
     function SetmyMood(string memory _mood) public{
         mood = _mood;
     }
-
     //create a function the reads the mood from the smart contract
     function GetmyMood() public view returns(string memory){
         return mood;
